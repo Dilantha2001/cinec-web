@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #f9f9f9; /* Light background for contrast */
+  margin: 20px;
+}
+
+.left-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  width: 100%; /* Responsive image */
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.right-column {
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #2c3e50; /* Dark blue for headings */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #34495e; /* Dark gray for text */
+  line-height: 1.6;
+}
+
+.card {
+  background-color: #ffffff; /* White background for card */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.info-box {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-left: 5px solid #3498db; /* Blue left border for emphasis */
+  background-color: #ecf6ff; /* Light blue background */
+}
+
+.info-box h2 {
+  color: #2980b9; /* Darker blue for subheadings */
+  margin-bottom: 5px;
+}
+
+.info-box p {
+  color: #7f8c8d; /* Gray for info text */
+}
+
+a {
+  color: #3498db; /* Blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

@@ -1,0 +1,28 @@
+/* SmartRecommendations.css */
+.writing-animation {
+  display: inline-block;
+  border-right: 3px solid white; /* Cursor effect */
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide the overflowing text */
+  animation: typing 5s steps(50, end), blink-caret 0.75s step-end infinite;
+  font-family: "Courier New", Courier, monospace; /* Monospace font for typing effect */
+}
+
+@keyframes typing {
+  0% {
+    width: 0; /* Start with no width */
+  }
+  100% {
+    width: 100%; /* End with full width */
+  }
+}
+
+@keyframes blink-caret {
+  0%,
+  100% {
+    border-color: transparent; /* No border */
+  }
+  50% {
+    border-color: white; /* Blink effect */
+  }
+}
